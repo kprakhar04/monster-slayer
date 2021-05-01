@@ -54,6 +54,8 @@ new Vue({
             this.monsterAttacks();
         },
         giveUp: function () {
+            alert("You gave up!!!");
+            this.startGame();
             this.gameIsRunning = false;
 
         },
